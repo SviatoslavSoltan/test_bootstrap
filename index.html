@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap_land</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark sticky-top container-fluide p-0">
+        <div class="container">
+          <a class="navbar-brand" href="/index.html"><img src="./images/guitar-clipar.png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse ms-5" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#">About</a>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-outline-light ms-auto p-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Call us
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleIndicators" class="carousel slide container-fluide" data-bs-ride="true">
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/cat-marquee_eurus_gs-1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/grass.jpeg" class="d-block w-100 " alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/guitar.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <div class="container-fluide bg-dark pt-2"> 
+          <div class="carousel-indicators position-relative m-0" >
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+        </div>
+      </div>
+      
+        
+      </div>
+
+  <section class="container-fluide bg-dark text-light  p-5">
+    <div class="row mb-5">
+      <div class="accordion accordion-flush bg-dark col-5 mx-5 border border-light" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed  bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse  bg-dark text-light" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem minima voluptate est adipisci eveniet recusandae
+              facere quidem! Commodi eos, aut voluptate nisi minus, inventore repudiandae voluptas sit nemo ipsam sunt?
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse  bg-dark text-light" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem minima voluptate est adipisci eveniet recusandae
+              facere quidem!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse bg-dark text-light" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem minima voluptat
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+              Accordion Item #4
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse bg-dark text-light" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Lorem ipsum dolor,
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 border border-light position-relative">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active bg-dark text-light border-bottom" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link bg-dark text-light border-bottom" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link bg-dark text-light border-bottom" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link bg-dark text-light border-bottom" id="about-tab" data-bs-toggle="tab" data-bs-target="#about-tab-pane" type="button" role="tab" aria-controls="about-tab-pane" aria-selected="false">About</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active " id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+            <div>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem minima voluptate est adipisci eveniet recusandae
+              facere quidem! Commodi eos, aut voluptate nisi minus, inventore repudiandae voluptas sit nemo ipsam sunt?
+            </div>
+            <button type="button" class="btn btn-outline-secondary btn-lg position-absolute bottom-0 start-50 translate-middle-x mb-3" data-bs-toggle="modal" data-bs-target="#modal_home">More info</button>
+          </div>
+
+          <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+            <div>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem minima voluptate est adipisci eveniet recusandae
+              facere quidem! 
+            </div>
+            <button type="button" class="btn btn-outline-secondary btn-sm position-absolute bottom-0 start-50 translate-middle-x mb-3" data-bs-toggle="modal" data-bs-target="#modal_profile">More info</button>
+          </div>
+
+          <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+            <div>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem min
+            </div>
+            <button type="button" class="btn btn-outline-primary position-absolute bottom-0 start-50 translate-middle-x mb-3" data-bs-toggle="modal" data-bs-target="#modal_contact">More info</button>
+          </div>
+
+          <div class="tab-pane fade" id="about-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">
+            <div>
+              Lorem ipsum dolor, sit amet consectetur ad
+            </div>
+            <button type="button" class="btn btn-warning btn-lg position-absolute bottom-0 start-50 translate-middle-x mb-3" data-bs-toggle="modal" data-bs-target="#modal_about">More info</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="p-5 mb-5">
+      <form class="row text-center">
+        <div class="col-2 p-2">
+          Callback form
+        </div>
+        <div class="col-4">
+            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+        </div>
+        <div class="col-4">
+            <input type="text" class="form-control" placeholder="Telephone" aria-label="Telephone">
+        </div>
+        <div class="col-2">
+          <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#modal_call_me">Call me</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="d-flex justify-content-between px-2">
+        <div class="card bg-dark text-light w-25 mx-3">
+          <img src="./images/guitar_first.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem minima voluptate est adipisci eveniet recusandae
+              facere quidem! Commodi eos, aut voluptate nisi minus, inventore repudiandae voluptas sit nemo ipsam sunt?</p>
+          </div>
+      </div>
+      <div class="card bg-dark text-light w-25 mx-3">
+        <img src="/images/guitar_sec.jpg" class="card-img-top" alt="...">
+        <div class="card-body bg-dark text-light">
+          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem minima voluptate est adipisci eveniet recusandae
+            facere quidem! Commodi eos, aut voluptate nisi minus, inventore repudiandae voluptas sit nemo ipsam sunt?</p>
+        </div>
+      </div>
+      <div class="card bg-dark text-light w-25 mx-3">
+        <img src="/images/guitar_third.jpg" class="card-img-top" alt="...">
+        <div class="card-body bg-dark text-light">
+          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem minima voluptate est adipisci eveniet recusandae
+            facere quidem! Commodi eos, aut voluptate nisi minus, inventore repudiandae voluptas sit nemo ipsam sunt?</p>
+        </div>
+      </div>
+      <div class="card bg-dark text-light w-25 mx-3">
+        <img src="/images/guitar_fourth.jpg" class="card-img-top" alt="...">
+        <div class="card-body bg-dark text-light">
+          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem minima voluptate est adipisci eveniet recusandae
+            facere quidem! Commodi eos, aut voluptate nisi minus, inventore repudiandae voluptas sit nemo ipsam sunt?S.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="footer container-fluide bg-dark text-light pt-5 pb-2 text-center">
+    <hr>
+    <div>&copy test Bootstrap</div>
+  </div>
+
+
+      <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content px-5">
+      <div class="modal-header">
+        <h2 d-block>Contact us</h2>
+      
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="form-floating mb-3 ">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Email address</label>
+      </div>
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+        <label for="floatingTextarea">Your question</label>
+      </div>
+      <div class="modal-footer row">
+        <div>You may also call us 
+        <a href="tel:+11111111111">+11111111111</a> 
+        or e-mail
+        <a href="e-mail:1qwerty@aaa.bb">1qwerty@aaa.bb</a>
+        </div>
+        <button type="button" class="btn btn-secondary col" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary col">Send</button>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Modal call_me -->
+<div class="modal fade" id="modal_call_me" tabindex="-1" aria-labelledby="modal_call_meLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal_call_meLabel">We'll call you</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum laborum consectetur assumenda quisquam repellendus harum pariatur velit
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal home -->
+<div class="modal fade" id="modal_home" tabindex="-1" aria-labelledby="modal_home" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal_homeLabel">HOME info</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum laborum consectetur assumenda quisquam repellendus harum pariatur velit
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal profile -->
+<div class="modal fade" id="modal_profile" tabindex="-1" aria-labelledby="modal_profile" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal_profileLabel">Profile info</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum laborum consectetur assumenda quisquam repellendus harum pariatur velit
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Modal contact -->
+<div class="modal fade " id="modal_contact" tabindex="-1" aria-labelledby="modal_contact" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content modal-dialog-scrollable">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal_modal_contactLabel">Contact info</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum laborum consectetur assumenda quisquam repellendus harum pariatur velit
+      </div>
+      <div class="modal-footer">
+        <div class="modal-body">
+          
+          <h5>Tooltips in a modal</h5>
+          <p><a href="#" data-bs-toggle="tooltip" title="Tooltip">This link</a> and <a href="#" data-bs-toggle="tooltip" title="Tooltip">that link</a> have tooltips on hover.</p>
+        </div>
+        <button type="button" class="btn btn-secondary position-absolute bottom-0 end-0" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal about -->
+<div class="modal fade" id="modal_about" tabindex="-1" aria-labelledby="modal_about" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal_modal_aboutLabel">About info</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum laborum consectetur assumenda quisquam repellendus harum pariatur velit
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</body>
+</html>
